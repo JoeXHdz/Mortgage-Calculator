@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    background-color: #ECD8CC; /* Light warm beige background */
+    font-family: 'Roboto', sans-serif;
+    color: #1F1B1C; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Slightly larger font size */
+  }
+  
+  /* Section */
+  section {
+    background-color: #8A6660; /* Soft warm brown */
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    width: 100%;
+    margin: 4rem auto;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  }
+  
+  /* Title */
+  h3 {
+    color: #1f040b; /* Deep red-brown for the title */
+    font-size: 2rem; /* Slightly larger font size */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Elements */
+  label {
+    font-size: 1.2rem; /* Larger font size */
+    font-weight: bold;
+    color: #331b19; /* Warm brown for labels */
+    display: block;
+    
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 1.25rem;
+    margin-top: 0.75rem;
+    border-radius: 8px;
+    border: 2px solid #7D504D;
+    font-size: 1.2rem; /* Slightly larger font size */
+    box-sizing: border-box; /* Prevents input fields from overflowing */
+  }
+  
+  /* Input field styles */
+  input,
+  select {
+    background-color: #ECD8CC; /* Soft warm beige */
+    color: #1F1B1C; /* Dark text */
+  }
+  
+  /* Button */
+  button {
+    background-color: #7D504D; /* Muted brown */
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem; /* Larger button text */
+  }
+  
+  button:hover {
+    background-color: #5a3c35; /* Darker brown on hover */
+  }
+  
+  /* Monthly Payment Output */
+  #output {
+    font-size: 1.5rem; /* Larger text for result */
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #1f040b; /* Deep red-brown text */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px; /* Slightly smaller font size for smaller screens */
+    }
+  
+    section {
+      padding: 1.5rem;
+      margin: 2rem auto;
+    }
+  
+    h3 {
+      font-size: 1.8rem;
+    }
+  
+    label,
+    input,
+    select,
+    button {
+      font-size: 1rem; /* Make form text a bit smaller */
+    }
+  
+    input,
+    select,
+    button {
+      padding: 1rem;
+    }
+  
+    #output {
+      font-size: 1.25rem; /* Adjust output font size for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  
+    section {
+      padding: 1rem;
+      margin: 1.5rem auto;
+    }
+  
+    h3 {
+      font-size: 1.6rem;
+    }
+  
+    label,
+    input,
+    select,
+    button {
+      font-size: 0.9rem; /* Adjust form text for small screens */
+    }
+  
+    input,
+    select,
+    button {
+      padding: 0.8rem;
+    }
+  
+    #output {
+      font-size: 1.15rem; /* Adjust output font size for small screens */
+    }
+  }
+  
